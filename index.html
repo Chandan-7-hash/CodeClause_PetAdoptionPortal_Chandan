@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pet Adoption Portal</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pet Adoption Portal</h1>
+    </header>
+    <main>
+      <section id="pet-adoption">
+        <style>
+          body {
+            background-image: url('dog.jpg');
+            background-size: cover;
+          }
+        </sty
+        </style>
+        <h2>Find Your New Best Friend</h2>
+        <input type="text" id="search" placeholder="Search for a pet">
+        <div id="filters">
+          <label for="type">Type:</label>
+          <select id="type">
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="rabbit">Rabbit</option>
+          </select>
+          <label for="breed">Breed:</label>
+          <select id="breed">
+            <option value="Siberian Husky"></option>
+            <option value="poodle">Bulldog</option>
+            <option value="siamese">German Shepherd</option>
+            <option value="persian">Persian Cat</option>
+            <option value="persian">Sphynx cat</option>
+            <option value="persian">Burmese cat</option>
+            <option value="persian">Dutch Rabbit</option>
+            <option value="dutch">Californian Rabbit</option>
+            <option value="lionhead">Angora Rabbit</option>
+            <option value="persian">Dutch Rabbit</option>
+          </select>
+          <form>
+            <label for="photo">Upload a photo of your pet:</label>
+            <input type="file" id="photo" name="photo" accept="image/*">
+          </form>          
+        </div>
+        <div id="pet-grid">
+          <!-- pets will be dynamically added here -->
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Pet Adoption Portal</p>
+    </footer>
+  </body>
+</html>

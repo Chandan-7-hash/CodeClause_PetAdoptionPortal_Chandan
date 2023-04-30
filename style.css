@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  header {
+    background-color: #005a9c;
+    color: white;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #pet-adoption {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #pet-adoption h2 {
+    margin-bottom: 10px;
+  }
+  
+  #search {
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  #filters {
+    margin-bottom: 10px;
+  }
+  
+  #filters label {
+    margin-right: 10px;
+  }
+  
+  #pet-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .pet {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0,
+  }
+  
+  .content {
+    background-image: url('dog.jpg');
+    background-size: cover;
+  }
